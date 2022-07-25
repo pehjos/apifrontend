@@ -1,0 +1,253 @@
+.img_detail{
+display: flex;
+flex: 1;
+align-items: center;
+width: 100%;
+height: 300px;
+flex-direction: column;
+}
+.img_detail>img{
+ 
+    
+    width: 100%;
+    height: 300px;
+   
+    }
+.img_icons{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 10px;
+position: absolute;
+width: 100%;
+}
+.img_icons_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    flex-direction: column;
+
+}
+.ic{
+background-color: white;
+padding: 5px;
+border-radius: 30px;
+}
+.img_icons_right>a{
+    text-decoration: none;
+   margin-top: 100px;
+position: absolute;
+background-color: white;
+padding: 10px;
+border-radius: 30px;
+color: tomato;
+
+}
+.img_icons_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    flex-direction: column;
+
+}
+.info_detail_top{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+.info_detail_left_items{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+ color: gray;
+
+}
+.info_detail_left_items>h5{
+margin: 4px;
+ text-transform: uppercase;
+color: #333;
+}
+.info_detail_right{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+  
+color: gray;
+}
+.info_detail_right>h5{
+
+  text-transform: uppercase;
+color: #333;
+}
+.info_detail_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+
+
+}
+.icons{
+
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;;
+    border-radius: 50%;
+     
+}
+.info_detail_description{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+font-size: 15px;
+color: #333;
+list-style: 3px;
+}
+.info_detail_description>p{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+font-size: 18px;
+color: #333;
+line-height: 23px;
+}
+.foot_btn{
+background-color: tomato;
+padding: 10px;
+text-transform: uppercase;
+color: white;
+border-radius: 20px;
+text-decoration: none;
+
+}
+
+.bottom1{
+    
+    z-index: 100;
+    overflow: hidden;
+    background-color:white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px; */
+
+   height:45px;
+
+    }
+    .bottom-icons1{
+color:black;
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        margin-bottom:10px;
+
+    }
+    .topbar-child>p{
+ 
+  background: -moz-linear-gradient(top, #000000 0%, #e8eb5b 100%);
+  background: -webkit-linear-gradient(top, #e72c2c 0%, #db0303 100%);
+  background: linear-gradient(to bottom, #ff0877 0%, #c64263 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+       }
+
+.bottom-icons a{
+
+    text-decoration: none;
+}
+.info_detail_buttons>.MuiSvgIcon-root{
+    color: tomato;
+    font-size: 20px;
+}
+.info_detail_buttons a{
+    color: tomato;
+    font-size: 20px;
+}
+.sendmessage{
+
+width: 350px;
+height: 300px;
+}
+.message{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+border: 1px solid lightgrey;
+width: 90%;
+margin-right: 10px;
+margin-left: 10px;
+border-radius: 30px;
+}
+.message>input{
+outline-width: 0;
+width: 250px;
+border: none;
+
+height: 40px;
+    }
+.text_center{
+margin: 10px;
+ text-align: center;   
+}
+
+/* media */
+@media(min-width:700px){
+    .bottom-icons1{
+        color:black;
+                display: flex;
+                align-items: center;
+                justify-content:center;
+   
+            }
+.detailpage{
+margin-top: 50px;
+margin-left: 20%;
+margin-right: 20%;
+}
+.img_icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    position: absolute;
+    width: 50%;
+    }
+    .bottom1{
+    
+        z-index: 100;
+        overflow: hidden;
+        background-color:white;
+        position: fixed;
+        bottom: 0;
+        width: 60%;
+        /* box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px; */
+    
+       height:45px;
+    
+        }
+
+        .foot_btn{
+            background-color: tomato;
+            padding: 6px;
+            text-transform: uppercase;
+            color: white;
+            border-radius: 20px;
+            text-decoration: none;
+         margin-bottom: 20px;
+         margin: 10px;
+            }      
+}

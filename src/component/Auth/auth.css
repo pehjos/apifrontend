@@ -1,0 +1,47 @@
+.main_component{
+display: flex;
+align-items: center;
+flex-direction: column;
+flex: 1;
+font-size: 30px;
+margin-top: 10px;
+}
+.button_nav{
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+flex-direction: row;
+justify-content: center;
+height: 40px;
+margin: 10px;
+border: 1px solid lightgray ;
+border-radius: 30px;
+}
+.button_nav>img{
+width: 20px;
+height: 20px;
+
+margin-left: 10px;
+}
+.button_nav>p{
+    margin-left: 10px;
+font-size: 16px;
+font-weight: bolder;
+font-family: 'roboto',sans-serif;
+width: 200px;
+}
+.font_color{
+color: black;
+
+}
+.button_red{
+
+outline-width: 0;
+height: 40px;
+border: 1px solid lightgray;
+background-color: white;
+margin-bottom: 10px;
+width: 100%;
+border-radius: 10px;
+
+}

@@ -1,0 +1,45 @@
+.favorite{
+    display: flex;
+    flex-direction: column;
+}
+
+.favorite__top {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: tomato;
+  
+}
+
+.favorite__arrow {
+    margin-left: 10px;
+    font-size: 24px !important;
+    color: #fff;
+    cursor: pointer;
+}
+
+.favorite__top p {
+    margin-right: 10px;
+    color: #fff;
+    font-weight: 700 !important;
+    font-family: sans-serif;
+}
+
+.favorite__cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+@media(min-width:700px){
+.favorite__cards{
+margin-left: 20%;
+margin-right: 20%;
+
+}
+
+}

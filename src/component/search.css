@@ -1,0 +1,38 @@
+.searchnew{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+background-color: white;
+flex-direction: column;
+}
+
+.searchnew_top{
+display: flex;
+align-items: center;
+border-radius: 5px;
+margin: 10px;
+background-color: whitesmoke;
+}
+.searchnew_top_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .searchnew_top_right{
+      margin: 4px;
+        }
+    .inputnew{
+display: flex;
+align-items: center;
+height: 30px;
+justify-content: center;
+    }
+    .inputnew>input{
+        display: flex;
+        align-items: center;
+        width: 300px;
+        outline-width: 0;
+        border: none;
+        height: 30px;
+     background-color: white;
+            }
