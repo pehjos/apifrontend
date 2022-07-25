@@ -1,7 +1,7 @@
 import React from 'react'
 import { ArrowLeftShort } from 'react-bootstrap-icons'
 import './model.css'
-import glb from './InteriorTest.glb'
+import glb from './dorm.glb'
 function Model() {
   return (
     <div className='model'>
